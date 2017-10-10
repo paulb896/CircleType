@@ -1,10 +1,10 @@
-addons:
-  chrome: beta
+#addons:
+#  chrome: beta
 
-language: node_js
+#language: node_js
 
-node_js:
-  - node
+#node_js:
+#  - node
 
 script: eslint src && npm t
 
@@ -45,4 +45,4 @@ services:
   - docker
 
 before_install:
-- docker pull tenjaa/java-chrome-nodejss
+- docker pull tenjaa/java-chrome-nodejs
