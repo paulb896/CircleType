@@ -40,3 +40,9 @@ deploy:
 
 env:
   - CHROME_PATH=/usr/bin/google-chrome-beta
+
+services:
+  - docker
+
+before_install:
+- docker pull tenjaa/java-chrome-nodejss
